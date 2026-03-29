@@ -1,13 +1,450 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="google-site-verification" content="JU3nWzWklecKplu8hhjhqW0i_4ACXRLlztAm3SIp6RA" />
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="JU3nWzWklecKplu8hhjhqW0i_4ACXRLlztAm3SIp6RA" />
+  <meta name="description" content="Kansas City Botanical Garden is a nonprofit creating a transformative green sanctuary in the heart of Kansas City. Help us grow.">
+  <title>Kansas City Botanical Garden | Grow With Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
 
-  <img src="DBCsplash.jpg" class="main-picture">
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-leaf">&#9752;</span>
+        <span class="logo-text">KC Botanical Garden</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#vision">The Garden</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#involved">Get Involved</a></li>
+        <li><a href="#donate" class="nav-cta">Give Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-image-wrap">
+      <img src="DBCsplash.jpg" alt="Kansas City Botanical Garden" class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">A New Kansas City Landmark</p>
+      <h1 class="hero-title reveal">Where Nature<br><em>Transforms</em> a City</h1>
+      <p class="hero-sub reveal">We are building Kansas City's most beloved botanical garden&mdash;a living sanctuary of beauty, science, and community rooted in the heart of our city.</p>
+      <div class="hero-ctas reveal">
+        <a href="#donate" class="btn btn-primary">Fund the Garden</a>
+        <a href="#vision" class="btn btn-ghost">Explore the Vision</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="hero-stat">
+          <span class="stat-number">40</span>
+          <span class="stat-unit">Acres</span>
+          <span class="stat-label">of living landscape</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number">500K+</span>
+          <span class="stat-unit">Visitors</span>
+          <span class="stat-label">projected annually</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number">$1M</span>
+          <span class="stat-unit">Goal</span>
+          <span class="stat-label">fundraising milestone</span>
+        </div>
+      </div>
+    </div>
+    <a href="#mission" class="hero-scroll-hint" aria-label="Scroll down">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- ===== MISSION ===== -->
+  <section id="mission" class="section section-cream">
+    <div class="container">
+      <div class="mission-grid">
+        <div class="mission-text reveal">
+          <span class="section-eyebrow">Our Mission</span>
+          <h2 class="section-title">Kansas City Deserves a World-Class Garden</h2>
+          <p class="body-large">We are a nonprofit dedicated to creating a transformative botanical garden that serves every Kansas Citian&mdash;a place of wonder, education, and healing that is free and accessible to all.</p>
+          <p>Great cities are defined by their great public spaces. From New York's Central Park to Chicago's Millennium Park, these green anchors become the soul of a city. Kansas City's botanical garden will be that place&mdash;a destination that draws visitors from across the region while serving as an everyday refuge for our neighbors.</p>
+          <div class="mission-pillars">
+            <div class="pillar">
+              <span class="pillar-icon">&#127807;</span>
+              <div>
+                <strong>Conservation</strong>
+                <p>Preserving native plants and biodiversity for future generations.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">&#127891;</span>
+              <div>
+                <strong>Education</strong>
+                <p>Programs for students, families, and lifelong learners.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="pillar-icon">&#10024;</span>
+              <div>
+                <strong>Community</strong>
+                <p>A free, welcoming space for every Kansas Citian to call their own.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mission-visual reveal">
+          <div class="mission-card-stack">
+            <div class="mission-card mc-back"></div>
+            <div class="mission-card mc-mid"></div>
+            <div class="mission-card mc-front">
+              <blockquote>
+                &ldquo;A botanical garden is not a luxury&mdash;it is an essential act of hope for a city and its people.&rdquo;
+              </blockquote>
+              <cite>&mdash; Kansas City Botanical Garden, Founding Vision</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GARDEN VISION ===== -->
+  <section id="vision" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow light">The Garden</span>
+        <h2 class="section-title light">A Living Canvas of Beauty</h2>
+        <p class="section-intro light">Designed by world-class landscape architects, our garden will be a mosaic of curated landscapes, each telling a unique story of the plant world.</p>
+      </div>
+      <div class="garden-features-grid">
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #52b788;">&#127807;</div>
+          <h3>Native Prairie Garden</h3>
+          <p>Sweeping meadows of native wildflowers and grasses celebrating the iconic tallgrass prairies of the Midwest. A living tribute to our regional heritage.</p>
+        </div>
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #74c69d;">&#127795;</div>
+          <h3>Tropical Conservatory</h3>
+          <p>A stunning glass-and-steel pavilion housing rare tropical specimens&mdash;a year-round escape to rainforests and cloud forests from around the world.</p>
+        </div>
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #d4a017;">&#127765;</div>
+          <h3>Children's Discovery Garden</h3>
+          <p>An immersive, hands-on wonderland where children dig, grow, and explore the natural world&mdash;sparking a lifelong love of plants and science.</p>
+        </div>
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #b7e4c7;">&#127774;</div>
+          <h3>Japanese Stroll Garden</h3>
+          <p>A meditative landscape of sculpted stone, reflecting pools, and seasonal blossoms offering a serene retreat at any time of year.</p>
+        </div>
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #f4a261;">&#127800;</div>
+          <h3>Rose & Sensory Garden</h3>
+          <p>Hundreds of rose varieties alongside fragrant herbs and textured plantings, designed to delight all five senses and welcome visitors of all abilities.</p>
+        </div>
+        <div class="garden-feature reveal">
+          <div class="feature-icon-wrap" style="--accent: #a8dadc;">&#127803;</div>
+          <h3>Aquatic & Wetland Trail</h3>
+          <p>A boardwalk winding through restored wetlands teeming with native water plants, amphibians, and migratory birds&mdash;a vital conservation corridor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IMPACT BANNER ===== -->
+  <section id="impact" class="section section-green">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow light">Community Impact</span>
+        <h2 class="section-title light">Rooted in Kansas City, Growing for All</h2>
+      </div>
+      <div class="impact-grid">
+        <div class="impact-item reveal">
+          <span class="impact-number">250+</span>
+          <span class="impact-label">Jobs Created</span>
+          <p>Full-time, part-time, and seasonal positions rooted in our community.</p>
+        </div>
+        <div class="impact-item reveal">
+          <span class="impact-number">30K</span>
+          <span class="impact-label">Students Served Annually</span>
+          <p>Free field trips and STEM programming for Kansas City school children.</p>
+        </div>
+        <div class="impact-item reveal">
+          <span class="impact-number">$50M+</span>
+          <span class="impact-label">Economic Impact</span>
+          <p>Estimated annual regional economic contribution through tourism and events.</p>
+        </div>
+        <div class="impact-item reveal">
+          <span class="impact-number">Free</span>
+          <span class="impact-label">General Admission</span>
+          <p>Always free to all Kansas City residents&mdash;because beauty belongs to everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DONATE ===== -->
+  <section id="donate" class="section section-cream">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Support the Garden</span>
+        <h2 class="section-title">Plant Your Legacy in Kansas City</h2>
+        <p class="section-intro">Every contribution&mdash;of any size&mdash;brings us closer to breaking ground. Choose your level of impact and become a founding supporter of Kansas City's botanical garden.</p>
+      </div>
+      <div class="donation-tiers">
+        <div class="tier reveal" data-tier="seedling">
+          <div class="tier-icon">&#127807;</div>
+          <h3 class="tier-name">Seedling</h3>
+          <div class="tier-amount">$25</div>
+          <p class="tier-desc">Plant the seed. Your gift funds native plant materials and helps establish our seed bank for the prairie garden.</p>
+          <ul class="tier-perks">
+            <li>Digital founding supporter certificate</li>
+            <li>Garden e-newsletter</li>
+            <li>Name in our online donor garden</li>
+          </ul>
+          <a href="mailto:info@distrobevco.com?subject=Seedling Donation - $25" class="btn btn-tier">Give $25</a>
+        </div>
+        <div class="tier reveal featured" data-tier="sapling">
+          <div class="tier-badge">Most Popular</div>
+          <div class="tier-icon">&#127795;</div>
+          <h3 class="tier-name">Sapling</h3>
+          <div class="tier-amount">$100</div>
+          <p class="tier-desc">Help us grow. Your gift sponsors a sapling tree on our main promenade, where it will stand for generations to come.</p>
+          <ul class="tier-perks">
+            <li>Printed founding certificate</li>
+            <li>Name on the Sapling Wall of Honor</li>
+            <li>Early access to garden events</li>
+            <li>Quarterly impact updates</li>
+          </ul>
+          <a href="mailto:info@distrobevco.com?subject=Sapling Donation - $100" class="btn btn-primary">Give $100</a>
+        </div>
+        <div class="tier reveal" data-tier="grove">
+          <div class="tier-icon">&#127794;</div>
+          <h3 class="tier-name">Grove</h3>
+          <div class="tier-amount">$500</div>
+          <p class="tier-desc">Create a lasting grove. Your gift funds a cluster of native trees and a commemorative marker in the woodland walk.</p>
+          <ul class="tier-perks">
+            <li>Named grove marker in the garden</li>
+            <li>VIP opening day invitation</li>
+            <li>Annual garden membership (when open)</li>
+            <li>Invitation to donor appreciation events</li>
+          </ul>
+          <a href="mailto:info@distrobevco.com?subject=Grove Donation - $500" class="btn btn-tier">Give $500</a>
+        </div>
+        <div class="tier reveal" data-tier="canopy">
+          <div class="tier-icon">&#127808;</div>
+          <h3 class="tier-name">Canopy</h3>
+          <div class="tier-amount">$1,000+</div>
+          <p class="tier-desc">Become a pillar of the garden. Major gifts fund named benches, garden features, and help us reach our capital campaign goals.</p>
+          <ul class="tier-perks">
+            <li>Named feature in the garden</li>
+            <li>Founding Patron recognition in all materials</li>
+            <li>Private tour of the design process</li>
+            <li>Lifetime complimentary membership</li>
+            <li>Annual donor gala invitation</li>
+          </ul>
+          <a href="mailto:info@distrobevco.com?subject=Canopy Donation - $1000+" class="btn btn-tier">Give $1,000+</a>
+        </div>
+      </div>
+      <div class="donate-other reveal">
+        <p>Want to give a different amount, donate stock, or discuss a major gift?</p>
+        <a href="mailto:info@distrobevco.com?subject=Custom Donation Inquiry" class="btn btn-outline">Contact Us About Giving</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GET INVOLVED ===== -->
+  <section id="involved" class="section section-white">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Get Involved</span>
+        <h2 class="section-title">There Are Many Ways to Grow With Us</h2>
+      </div>
+      <div class="involved-grid">
+        <div class="involved-card reveal">
+          <span class="involved-icon">&#128138;</span>
+          <h3>Volunteer</h3>
+          <p>Join our founding volunteer corps. Help with community outreach, events, garden workdays, and more as we build toward opening day.</p>
+          <a href="mailto:info@distrobevco.com?subject=Volunteer Interest" class="link-arrow">Sign up to volunteer &rarr;</a>
+        </div>
+        <div class="involved-card reveal">
+          <span class="involved-icon">&#127968;</span>
+          <h3>Corporate Sponsorship</h3>
+          <p>Align your brand with one of Kansas City's most exciting new institutions. Custom sponsorship packages available for businesses of all sizes.</p>
+          <a href="mailto:info@distrobevco.com?subject=Corporate Sponsorship Inquiry" class="link-arrow">Explore sponsorships &rarr;</a>
+        </div>
+        <div class="involved-card reveal">
+          <span class="involved-icon">&#128227;</span>
+          <h3>Spread the Word</h3>
+          <p>Share our vision with your network. Every conversation, social share, and introduction to a potential donor moves us closer to breaking ground.</p>
+          <a href="#newsletter" class="link-arrow">Stay connected &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section id="newsletter" class="section section-green">
+    <div class="container">
+      <div class="newsletter-wrap reveal">
+        <span class="section-eyebrow light">Stay Connected</span>
+        <h2 class="section-title light">Watch the Garden Grow</h2>
+        <p class="newsletter-sub">Get project updates, event invitations, and behind-the-scenes looks at our progress delivered straight to your inbox.</p>
+        <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)">
+          <div class="newsletter-inputs">
+            <input type="text" placeholder="Your first name" aria-label="First name" required>
+            <input type="email" placeholder="Your email address" aria-label="Email address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <p class="newsletter-fine">We respect your privacy. Unsubscribe at any time.</p>
+        </form>
+        <div class="newsletter-success" id="newsletterSuccess" style="display:none;">
+          <span>&#10003;</span> Thank you! You'll hear from us soon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo footer-logo">
+            <span class="logo-leaf">&#9752;</span>
+            <span class="logo-text">KC Botanical Garden</span>
+          </a>
+          <p>A 501(c)(3) nonprofit organization dedicated to creating Kansas City's premier botanical garden. All donations are tax-deductible.</p>
+          <div class="footer-social">
+            <a href="mailto:info@distrobevco.com" aria-label="Email us" class="social-link">&#9993;</a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#vision">The Garden</a></li>
+            <li><a href="#impact">Community Impact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="mailto:info@distrobevco.com?subject=Corporate Sponsorship Inquiry">Corporate Sponsorship</a></li>
+            <li><a href="mailto:info@distrobevco.com?subject=Volunteer Interest">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@distrobevco.com">info@distrobevco.com</a></li>
+            <li><span>Kansas City, Missouri</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kansas City Botanical Garden. A nonprofit organization. All rights reserved.</p>
+        <p>Tax ID: EIN on file &bull; 501(c)(3) Pending</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ---- Smooth scroll for anchor links ----
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // Close mobile nav if open
+        document.getElementById('navLinks').classList.remove('open');
+        document.getElementById('navToggle').classList.remove('active');
+      });
+    });
+
+    // ---- Navbar scroll behavior ----
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ---- Mobile nav toggle ----
+    document.getElementById('navToggle').addEventListener('click', function() {
+      this.classList.toggle('active');
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // ---- Scroll reveal ----
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ---- Newsletter form ----
+    function handleNewsletterSubmit(e) {
+      e.preventDefault();
+      document.querySelector('.newsletter-form').style.display = 'none';
+      document.getElementById('newsletterSuccess').style.display = 'block';
+    }
+
+    // ---- Animated counters ----
+    function animateCounter(el) {
+      const target = el.textContent;
+      const isPrefix = target.startsWith('$');
+      const isSuffix = target.endsWith('+') || target.endsWith('K') || target.endsWith('M') || target.endsWith('K+') || target.endsWith('M+');
+      const numStr = target.replace(/[$K+M]/g, '');
+      const num = parseFloat(numStr);
+      if (isNaN(num)) return;
+      const suffix = target.replace(/^[$]?[\d.]+/, '');
+      const prefix = isPrefix ? '$' : '';
+      let start = 0;
+      const duration = 2000;
+      const step = (timestamp) => {
+        if (!start) start = timestamp;
+        const progress = Math.min((timestamp - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(eased * num);
+        el.textContent = prefix + current + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+        else el.textContent = target;
+      };
+      requestAnimationFrame(step);
+    }
+
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.stat-number, .impact-number').forEach(el => counterObserver.observe(el));
+  </script>
+
 </body>
 </html>
